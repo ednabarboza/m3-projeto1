@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+.page-header{
+    display: flex;
+    justify-content: center;
+    background: #000000;
+    padding: 29px 0;
+}
+
+.header-logo{
+    display: block;
+}
+
+.main-banner{
+    width: 100%;
+    display: block;
+}
+
+.top-infocard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 73px;
+}
+
+
+.top-infocard-text{
+    width: 100%;
+    max-width: 766px;  
+
+}
+
+.top-infocard-subtitle{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: uppercase;
+   
+}
+
+.top-infocard-title{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.top-infocard-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 28px;
+}
+
+.top-infocard-image{
+    display: flex;
+    justify-content: center;
+    margin: 73px 0 178px;
+}
+
+.top-cards{
+    display: grid;
+    grid-template-columns: repeat(3, max-content); 
+    gap: 21px;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+
+.top-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 26px 34px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.23);
+}
+
+.top-card-image{
+    display: block;
+    margin-bottom: 26px;
+}
+
+.top-card-description{
+    max-width: 300px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;  
+}
+
+/*VALIDADO CÓDIGO ACIMA*/  
+
+/*
+.cards-image{
+    display: flex;
+    background: #E0E0E0;
+    border: 1px solid black;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 62px ;
+   
+}
+
+.cards-image-mobile{
+    display: none;
+}
+
+.cards-image-desktop{
+    display: grid;
+    grid-template-columns: repeat(3,max-content);
+    
+}
+*/
+.botton-cards{
+    display: grid;
+    grid-template-columns: repeat(4, max-content); 
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 108px;
+
+}
+
+.botton-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);;
+}
+
+.botton-card-image{
+    display: block;
+   
+}
+
+.botton-card-description{
+    width: 367px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;  
+}
+
+/*Botton infocard*/
+
+.botton-infocard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 108px;
+}
+
+
+.botton-infocard-text{
+    width: 100%;
+    max-width: 550px; 
+
+}
+
+.botton-infocard-title{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 32px;
+    justify-content: center; 
+   
+}
+
+
+.botton-infocard-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.last-bunner{
+    display: block;
+    width: 1360px;
+    margin-top: 50px;
+    margin-bottom: 116px;
+}
+
+.page-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 38px 0;
+    background: #000000;
+}
+
+.footer-icons{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.footer-icon{
+    margin: 0 8px;
+}
+
+.footer-text{
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+   
+}
+
+
+/*MEDIAS*/
+
+@media screen and (max-width:414px) {
+    body{
+        background-color: yellow;
+    }
+    .main-banner-desktop{
+        display: none;
+    }
+
+    .top-infocard-subtitle{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .top-infocard-title{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    
+    .top-infocard-description{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 28px;
+        text-align: center;
+    }
+
+    .top-infocard-image{
+        margin: 65px 0 90px;
+    }
+
+    .top-infocard-img{
+        width: 239px;
+        height: 239px;
+    }
+
+    .top-cards{
+        grid-template-columns: 1fr;
+        padding: 36px 26px;
+    }
+    /*código acima validado*/
+    
+    .cards-image-desktop{
+        display: none;
+    }
+
+    /*botton-infocard*/
+   
+    .button-infocard-title{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    
+    .button-infocard-description{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 32px;
+        text-align: center;
+    }
+
+    }
+
+
+
+
+@media screen and (min-width: 415px) and (max-width: 1199px) {
+    body{
+        background-color: pink;
+    }
+    .top-infocard-subtitle{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .top-infocard-title{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    
+    .top-infocard-description{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 28px;
+        text-align: center;
+
+    }
+
+    .top-infocard-image{
+        margin: 73px 0 90px;
+    }
+
+    .top-cards{
+        grid-template-columns: 1fr;
+        padding: 36px 26px;
+    }
+    
+    /*AQUI*/
+    .cards-image-desktop{
+        display: none;
+    }
+        
+    }
+    
+    
+
+    /*Botton-infocard*/
+    .button-infocard-title{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    
+    .button-infocard-description{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 32px;
+        text-align: center;
+    }
+
+
+@media screen and (min-width: 2500px) {
+    body{
+        background-color: blue;
+    }
+    .header-logo{
+        width: 470px;
+        height: 88px;
+    }
+
+    .main-banner{
+        display: block;
+    }
+
+    .top-infocard-text{
+        width: 1915px;
+        height: 418px;
+        max-width: 100%;
+        margin-top: 152px;
+    }
+
+    .top-infocard-subtitle{
+        font-size: 66px;
+        line-height: 70px;
+    }
+
+    .top-infocard-title{
+        font-size: 100px;
+        line-height: 120px;
+    }
+    
+    .top-infocard-description{
+        font-size: 40px;
+        line-height: 44px;
+        margin: 28px;
+        text-align: center;
+    }
+
+    .top-infocard-image{
+        margin: 73px 0 178px;
+    }
+
+    .top-infocard-img{
+        width: 656px;
+        height: 656px;
+    }
+
+    .top-card{
+        width: 730px;
+        height: 598px;
+    }
+    
+    .top-cards{
+        gap: 44px;
+    }
+
+    .img1{
+        display: block;
+        margin-bottom: 27px;
+        width: 214.58px;
+        height: 214.58px;
+        margin: 47px 0 38px 0;
+    }
+
+    .img2{
+        display: block;
+        margin-bottom: 27px;
+        width: 212.58px;
+        height: 214.58px;
+        margin: 35px 0 27px 0;
+    }
+    
+    .top-card-description{
+        max-width: 625px;
+        font-size: 34px;
+        line-height: 50px;
+        text-align: center;  
+    }
+    .cards-image-mobile{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 415px){
+    .main-banner-mobile{
+        display: none;
+    }
+    .cards-image-mobile{
+        display: none;
+    }
+}
